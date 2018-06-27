@@ -60,7 +60,10 @@ In this section we will use the ```mongodump``` and ```mongorestore``` commands 
 	drwxr-xr-x 1 root root 4096 Feb 10 12:01 ..
 	drwxr-xr-x 2 root root 4096 Feb 10 12:01 admin
 	drwxr-xr-x 2 root root 4096 Feb 10 12:01 webratings
-
+        
+	# copy the bson files to root of dump directory
+	root@heroes-db-deploy-6ccb88c7bc-cfmqh:/# cp ./dump/admin/*.* ./dump/
+	root@heroes-db-deploy-6ccb88c7bc-cfmqh:/# cp ./dump/webratings/*.* ./dump/
 	```
 
 	_Do not exit the pod. Step 3 will be run from the same location._
