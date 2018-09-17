@@ -14,7 +14,7 @@
       <div class="col-lg-6">
       </div>
       <div class="col-lg-12 credits">
-        Aravindh Fifth
+        Aravindh Sixth
       </div>
       <div class="col-lg-6">
       </div>
